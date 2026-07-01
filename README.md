@@ -71,20 +71,20 @@ Evidence from the investigation and validation process.
 
 ## Planned Scenarios
 
----------------------------------------------------------------------------------------------
-| Scenario                                    | Topic                             | Status  |
-| ------------------------------------------- | --------------------------------- | ------- |
-| 001-gpo-not-applying-wrong-ou               | Active Directory / Group Policy   | Planned |
-| 002-network-share-access-denied             | SMB / NTFS / AD Groups            | Planned |
-| 003-account-lockout-investigation           | Active Directory / Authentication | Planned |
-| 004-dns-domain-controller-discovery-failure | DNS / Domain Services             | Planned |
-| 005-wazuh-agent-not-reporting               | Monitoring / Endpoint Agent       | Planned |
-| 006-winrm-remote-powershell-failure         | Remote Administration             | Planned |
-| 007-dhcp-apipa-no-network                   | DHCP / Networking                 | Planned |
-| 008-software-install-permission-issue       | Permissions / Software Install    | Planned |
-| 009-print-spooler-service-failure           | Windows Services / Printing       | Planned |
-| 010-slow-workstation-investigation          | Performance Troubleshooting       | Planned |
----------------------------------------------------------------------------------------------
+
+| Scenario                                    | Topic                             |  Status  |
+| ------------------------------------------- | --------------------------------- | -------- |
+| 001-gpo-not-applying-wrong-ou               | Active Directory / Group Policy   | Finished |
+| 002-network-share-access-denied             | SMB / NTFS / AD Groups            |  Planned |
+| 003-account-lockout-investigation           | Active Directory / Authentication |  Planned |
+| 004-dns-domain-controller-discovery-failure | DNS / Domain Services             |  Planned |
+| 005-wazuh-agent-not-reporting               | Monitoring / Endpoint Agent       |  Planned |
+| 006-winrm-remote-powershell-failure         | Remote Administration             |  Planned |
+| 007-dhcp-apipa-no-network                   | DHCP / Networking                 |  Planned |
+| 008-software-install-permission-issue       | Permissions / Software Install    |  Planned |
+| 009-print-spooler-service-failure           | Windows Services / Printing       |  Planned |
+| 010-slow-workstation-investigation          | Performance Troubleshooting       |  Planned |
+
 
 ## Skills Demonstrated
 
