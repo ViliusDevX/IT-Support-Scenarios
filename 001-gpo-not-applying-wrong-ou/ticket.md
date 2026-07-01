@@ -3,10 +3,15 @@
 ## Ticket Details
 
 **Ticket ID:** IT-001
+
 **Priority:** Medium
+
 **Category:** Workstation / Group Policy
+
 **Affected device:** WIN11-CLIENT01
+
 **Reported by:** Helpdesk / User Onboarding
+
 **Status:** Open
 
 ## Original Request
