@@ -247,9 +247,9 @@ This confirmed that the original issue was caused by incorrect Active Directory 
 | Evidence | Screenshot |
 |---|---|
 | Client confirmed domain joined and able to reach the domain controller | `screenshots/01-client-domain-connectivity-before-investigation.png` |
-| GPO linked to the Workstations OU | `screenshots/02-client-in-staging-ou.png` |
-| Registry preference configured in the GPO | `screenshots/03-gpo-linked-to-workstations-ou.png` |
-| Client placed in Staging OU | `screenshots/04-gpo-registry-preference-configured.png` |
+| Client placed in Staging OU | `screenshots/02-client-in-staging-ou.png` |
+| GPO linked to the Workstations OU | `screenshots/03-gpo-linked-to-workstations-ou.png` |
+| Registry preference configured in the GPO | `screenshots/04-gpo-registry-preference-configured.png` |
 | Distinguished name confirmed OU change | `screenshots/05-adcomputer-distinguishedname-before-after-move.png` |
 | gpresult showed IT001 GPO was not applied | `screenshots/06-gpresult-before-it001-not-applied.png` |
 | Client moved back to Workstations OU | `screenshots/07-client-moved-back-to-workstation.png` |
