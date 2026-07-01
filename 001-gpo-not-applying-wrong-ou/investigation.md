@@ -124,7 +124,7 @@ Get-ItemProperty -Path "HKLM:\SOFTWARE\ViliusLab\IT001" -Name GPOApplied
 
 The path did not exist, which confirmed that the expected baseline setting was missing.
 
-![Registry value missing before fix](screenshots/06-registry-value-missing-before-fix.png)
+![Registry value missing before fix](screenshots/10-registry-value-missing-before-fix.png)
 
 This matched the ticket report: the workstation was domain joined and functional, but the standard workstation configuration was not present.
 
@@ -159,7 +159,7 @@ Default Domain Policy
 Baseline-Audit-Policy
 ```
 
-![gpresult before fix showing IT001 GPO not applied](screenshots/07-gpresult-before-it001-not-applied.png)
+![gpresult before fix showing IT001 GPO not applied](screenshots/06-gpresult-before-it001-not-applied.png)
 
 This confirmed that the workstation was processing Group Policy, but it was not receiving the workstation baseline GPO.
 
@@ -185,7 +185,7 @@ The workstation computer object was outside the scope of the linked Group Policy
 
 To resolve the issue, `WIN11-CLIENT01` was moved back into the correct `Workstations` OU.
 
-![Client moved back to Workstations OU](screenshots/08-client-moved-back-to-workstations-ou.png)
+![Client moved back to Workstations OU](screenshots/07-client-moved-back-to-workstation.png)
 
 Group Policy was then refreshed on the client:
 
@@ -214,7 +214,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\ViliusLab\IT001
     GPOApplied    REG_SZ    Applied
 ```
 
-![Registry value present after fix](screenshots/09-registry-value-present-after-fix.png)
+![Registry value present after fix](screenshots/08-registry-value-present-after-fix.png)
 
 A final `gpresult` check confirmed that the workstation baseline GPO was now applied to `WIN11-CLIENT01`.
 
@@ -228,7 +228,7 @@ The applied Group Policy Objects list included:
 IT001 - Workstation Baseline Registry Test
 ```
 
-![gpresult after fix showing IT001 GPO applied](screenshots/10-gpresult-after-it001-applied.png)
+![gpresult after fix showing IT001 GPO applied](screenshots/09-gpresult-after-it001-applied.png)
 
 ---
 
@@ -251,8 +251,8 @@ This confirmed that the original issue was caused by incorrect Active Directory 
 | Registry preference configured in the GPO | `screenshots/03-gpo-registry-preference-configured.png` |
 | Client placed in Staging OU | `screenshots/04-client-placed-in-staging-ou.png` |
 | Distinguished name confirmed OU change | `screenshots/05-adcomputer-distinguishedname-before-after-move.png` |
-| Registry value missing before fix | `screenshots/06-registry-value-missing-before-fix.png` |
-| gpresult showed IT001 GPO was not applied | `screenshots/07-gpresult-before-it001-not-applied.png` |
-| Client moved back to Workstations OU | `screenshots/08-client-moved-back-to-workstations-ou.png` |
-| Registry value present after fix | `screenshots/09-registry-value-present-after-fix.png` |
-| gpresult confirmed IT001 GPO applied | `screenshots/10-gpresult-after-it001-applied.png` |
+| gpresult showed IT001 GPO was not applied | `screenshots/06-gpresult-before-it001-not-applied.png` |
+| Client moved back to Workstations OU | `screenshots/07-client-moved-back-to-workstation.png` |
+| Registry value present after fix | `screenshots/08-registry-value-present-after-fix.png` |
+| gpresult confirmed IT001 GPO applied | `screenshots/09-gpresult-after-it001-applied.png` |
+| Registry value missing before fix | `screenshots/10-registry-value-missing-before-fix.png` |
