@@ -3,8 +3,11 @@
 ## Ticket Status
 
 **Status:** Resolved
+
 **Ticket ID:** IT-001
+
 **Affected device:** WIN11-CLIENT01
+
 **Category:** Workstation / Group Policy
 
 ## User-Facing Reply
