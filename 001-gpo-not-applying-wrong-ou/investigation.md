@@ -97,7 +97,7 @@ To reproduce the reported issue, `WIN11-CLIENT01` was moved out of the `Workstat
 
 The `Staging` OU did not have the `IT001 - Workstation Baseline Registry Test` GPO linked to it.
 
-![Client placed in Staging OU](screenshots/02-client-placed-in-staging-ou.png)
+![Client placed in Staging OU](screenshots/02-client-in-staging-ou.png)
 
 The computer object's distinguished name was checked from the domain controller:
 
