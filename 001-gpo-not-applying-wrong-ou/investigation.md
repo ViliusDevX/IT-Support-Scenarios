@@ -73,7 +73,7 @@ The GPO was linked to:
 OU=Workstations,DC=vilius,DC=lab
 ```
 
-![GPO linked to Workstations OU](screenshots/02-gpo-linked-to-workstations-ou.png)
+![GPO linked to Workstations OU](screenshots/03-gpo-linked-to-workstations-ou.png)
 
 The GPO was configured to create the following registry value using Group Policy Preferences:
 
@@ -85,7 +85,7 @@ Value type: REG_SZ
 Value data: Applied
 ```
 
-![Registry preference configured in GPO](screenshots/03-gpo-registry-preference-configured.png)
+![Registry preference configured in GPO](screenshots/04-gpo-registry-preference-configured.png)
 
 This registry value represented the standard workstation configuration mentioned in the ticket.
 
@@ -97,7 +97,7 @@ To reproduce the reported issue, `WIN11-CLIENT01` was moved out of the `Workstat
 
 The `Staging` OU did not have the `IT001 - Workstation Baseline Registry Test` GPO linked to it.
 
-![Client placed in Staging OU](screenshots/04-client-placed-in-staging-ou.png)
+![Client placed in Staging OU](screenshots/02-client-placed-in-staging-ou.png)
 
 The computer object's distinguished name was checked from the domain controller:
 
@@ -247,9 +247,9 @@ This confirmed that the original issue was caused by incorrect Active Directory 
 | Evidence | Screenshot |
 |---|---|
 | Client confirmed domain joined and able to reach the domain controller | `screenshots/01-client-domain-connectivity-before-investigation.png` |
-| GPO linked to the Workstations OU | `screenshots/02-gpo-linked-to-workstations-ou.png` |
-| Registry preference configured in the GPO | `screenshots/03-gpo-registry-preference-configured.png` |
-| Client placed in Staging OU | `screenshots/04-client-placed-in-staging-ou.png` |
+| GPO linked to the Workstations OU | `screenshots/02-client-in-staging-ou.png` |
+| Registry preference configured in the GPO | `screenshots/03-gpo-linked-to-workstations-ou.png` |
+| Client placed in Staging OU | `screenshots/04-gpo-registry-preference-configured.png` |
 | Distinguished name confirmed OU change | `screenshots/05-adcomputer-distinguishedname-before-after-move.png` |
 | gpresult showed IT001 GPO was not applied | `screenshots/06-gpresult-before-it001-not-applied.png` |
 | Client moved back to Workstations OU | `screenshots/07-client-moved-back-to-workstation.png` |
