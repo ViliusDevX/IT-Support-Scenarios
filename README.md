@@ -69,13 +69,13 @@ This shows how the issue would be explained after resolution, including what was
 
 Evidence from the investigation and validation process.
 
-## Planned Scenarios
+## Scenarios
 
 
 | Scenario                                    | Topic                             |  Status  |
 | ------------------------------------------- | --------------------------------- | -------- |
 | 001-gpo-not-applying-wrong-ou               | Active Directory / Group Policy   | Finished |
-| 002-network-share-access-denied             | SMB / NTFS / AD Groups            |  Planned |
+| 002-network-share-access-denied             | SMB / NTFS / AD Groups            | Finished |
 | 003-account-lockout-investigation           | Active Directory / Authentication |  Planned |
 | 004-dns-domain-controller-discovery-failure | DNS / Domain Services             |  Planned |
 | 005-wazuh-agent-not-reporting               | Monitoring / Endpoint Agent       |  Planned |
