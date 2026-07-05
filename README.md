@@ -77,7 +77,7 @@ Evidence from the investigation and validation process.
 | 001-gpo-not-applying-wrong-ou               | Active Directory / Group Policy   | Finished |
 | 002-network-share-access-denied             | SMB / NTFS / AD Groups            | Finished |
 | 003-account-lockout-investigation           | Active Directory / Authentication | Finished |
-| 004-dns-domain-controller-discovery-failure | DNS / Domain Services             |  Planned |
+| 004-dns-resolution-issue                    | DNS / Domain Services             | Finished |
 | 005-wazuh-agent-not-reporting               | Monitoring / Endpoint Agent       |  Planned |
 | 006-winrm-remote-powershell-failure         | Remote Administration             |  Planned |
 | 007-dhcp-apipa-no-network                   | DHCP / Networking                 |  Planned |
