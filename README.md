@@ -78,7 +78,7 @@ Evidence from the investigation and validation process.
 | 002-network-share-access-denied             | SMB / NTFS / AD Groups            | Finished |
 | 003-account-lockout-investigation           | Active Directory / Authentication | Finished |
 | 004-dns-resolution-issue                    | DNS / Domain Services             | Finished |
-| 005-wazuh-agent-not-reporting               | Monitoring / Endpoint Agent       |  Planned |
+| 005-wazuh-agent-not-reporting               | Monitoring / Endpoint Agent       | Finished |
 | 006-winrm-remote-powershell-failure         | Remote Administration             |  Planned |
 | 007-dhcp-apipa-no-network                   | DHCP / Networking                 |  Planned |
 | 008-software-install-permission-issue       | Permissions / Software Install    |  Planned |
