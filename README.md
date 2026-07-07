@@ -79,7 +79,7 @@ Evidence from the investigation and validation process.
 | 003-account-lockout-investigation           | Active Directory / Authentication | Finished |
 | 004-dns-resolution-issue                    | DNS / Domain Services             | Finished |
 | 005-wazuh-agent-not-reporting               | Monitoring / Endpoint Agent       | Finished |
-| 006-winrm-remote-powershell-failure         | Remote Administration             |  Planned |
+| 006-winrm-remote-powershell-failure         | Remote Administration             | Finished |
 | 007-dhcp-apipa-no-network                   | DHCP / Networking                 |  Planned |
 | 008-software-install-permission-issue       | Permissions / Software Install    |  Planned |
 | 009-print-spooler-service-failure           | Windows Services / Printing       |  Planned |
