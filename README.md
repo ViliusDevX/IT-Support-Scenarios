@@ -80,7 +80,7 @@ Evidence from the investigation and validation process.
 | 004-dns-resolution-issue                    | DNS / Domain Services             | Finished |
 | 005-wazuh-agent-not-reporting               | Monitoring / Endpoint Agent       | Finished |
 | 006-winrm-remote-powershell-failure         | Remote Administration             | Finished |
-| 007-dhcp-apipa-no-network                   | DHCP / Networking                 |  Planned |
+| 007-dhcp-apipa-no-network                   | DHCP / Networking                 | Finished |
 | 008-software-install-permission-issue       | Permissions / Software Install    |  Planned |
 | 009-print-spooler-service-failure           | Windows Services / Printing       |  Planned |
 | 010-slow-workstation-investigation          | Performance Troubleshooting       |  Planned |
