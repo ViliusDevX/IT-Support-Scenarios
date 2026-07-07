@@ -106,6 +106,8 @@ The approval note is documented separately in:
 
 `approval.md`
 
+* [Approval](approval.md) 
+
 The installation was approved with the condition that IT would complete the install using administrator approval and the user would remain a standard user afterward.
 
 ---
