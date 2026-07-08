@@ -38,12 +38,9 @@ Affected user:
 ```text
 vilius\it003.user
 ```
+Related lab:
 
-Related lab documentation:
-
-```text
-Purple Team Home Lab documentation link placeholder
-```
+This scenario was reproduced in my local Windows domain home lab using DC01, WIN11-CLIENT01, Active Directory, Group Policy, DNS, DHCP, and pfSense.
 
 ---
 
