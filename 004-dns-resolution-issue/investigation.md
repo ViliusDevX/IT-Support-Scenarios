@@ -42,11 +42,9 @@ pfSense / Gateway: 10.10.10.1
 WIN11-CLIENT01: 10.10.10.100
 ```
 
-Related lab documentation:
+Related lab:
 
-```text
-Purple Team Home Lab documentation link placeholder
-```
+This scenario was reproduced in my local Windows domain home lab using DC01, WIN11-CLIENT01, Active Directory, Group Policy, DNS, DHCP, and pfSense.
 
 ---
 
