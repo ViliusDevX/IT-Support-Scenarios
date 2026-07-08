@@ -28,6 +28,7 @@ Systems involved:
 - Group Policy Preferences
 
 Related lab:
+
 This scenario was reproduced in my local Windows domain home lab using DC01, WIN11-CLIENT01, Active Directory, Group Policy, DNS, DHCP, and pfSense.
 
 ---
