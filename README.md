@@ -209,7 +209,7 @@ Each scenario is designed to show:
 
 These scenarios are also connected to my broader IT and cybersecurity portfolio project:
 
-[IT & Security Lab](https://soc-journal-kappa.vercel.app/)
+[IT & Security Lab](https://vilius-lab.vercel.app/)
 
 That project includes my learning journey, SOC practice scenarios, IT support cases, and interactive frontend work.
 
