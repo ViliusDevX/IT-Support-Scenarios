@@ -146,7 +146,7 @@ After installation, I confirmed that the application was installed under `Progra
 
 I also confirmed that the software worked by creating a test archive with 7-Zip.
 
-![Software functionality confirmed](screenshots/07-software-functionality-confirmed.png.png)
+![Software functionality confirmed](screenshots/07-software-functionality-confirmed.png)
 
 This confirmed that the application was installed successfully and usable by the affected user.
 
@@ -172,4 +172,4 @@ The software was installed successfully and its functionality was confirmed.
 | Installer required administrator approval | `screenshots/04-installer-requires-administrator-approval.png` |
 | Installation completed with admin approval | `screenshots/05-installation-completed-with-admin-approval.png` |
 | Software installed under Program Files | `screenshots/06-software-installed-in-program-files.png` |
-| Software functionality confirmed | `screenshots/07-software-functionality-confirmed.png.png` |
+| Software functionality confirmed | `screenshots/07-software-functionality-confirmed.png` |
